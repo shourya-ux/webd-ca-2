@@ -1,0 +1,118 @@
+/* ----------- Global Styling ----------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f3f3f3;
+  line-height: 1.6;
+}
+
+/* ----------- Navigation Bar ----------- */
+nav {
+  background: #222;
+  padding: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  margin-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #00eaff;
+}
+
+/* ----------- Home Page ----------- */
+.home-container {
+  padding: 60px;
+  text-align: center;
+}
+
+/* ----------- About Page ----------- */
+.about-container {
+  padding: 40px;
+  width: 80%;
+  margin: auto;
+}
+
+.about-container img {
+  float: left;
+  width: 250px;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: 2px solid #333;
+}
+
+/* ----------- Skills Page ----------- */
+.skills-container {
+  padding: 40px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  width: 260px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* ----------- Contact Page ----------- */
+.contact-container {
+  width: 60%;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #333;
+}
+
+.contact-container input,
+.contact-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.contact-container button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #222;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+
+.contact-container button:hover {
+  background: #00eaff;
+  color: black;
+}
